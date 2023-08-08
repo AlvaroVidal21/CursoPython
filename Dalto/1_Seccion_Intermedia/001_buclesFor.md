@@ -30,10 +30,10 @@ if __name__ == '__main__':
 **Ouput**
 
 
-La nota de Sherlock es: 20
-La nota de Mycroft es: 20
-La nota de John es: 13
-La nota de Irene es: 14
+- La nota de Sherlock es: 20
+- La nota de Mycroft es: 20
+- La nota de John es: 13
+- La nota de Irene es: 14
 
 
 ## Enumerate()
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 **Output**
 
 
-El alumno Sherlock tiene el indice 0
-El alumno Mycroft tiene el indice 1
-El alumno John tiene el indice 2
-El alumno Irene tiene el indice 3
+- El alumno Sherlock tiene el indice 0
+- El alumno Mycroft tiene el indice 1
+- El alumno John tiene el indice 2
+- El alumno Irene tiene el indice 3
