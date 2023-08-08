@@ -28,6 +28,7 @@ if __name__ == '__main__':
 
 
 **Ouput**
+
 La nota de Sherlock es: 20
 La nota de Mycroft es: 20
 La nota de John es: 13
@@ -59,6 +60,7 @@ if __name__ == '__main__':
 
 
 **Output**
+
 El alumno Sherlock tiene el indice 0
 El alumno Mycroft tiene el indice 1
 El alumno John tiene el indice 2
