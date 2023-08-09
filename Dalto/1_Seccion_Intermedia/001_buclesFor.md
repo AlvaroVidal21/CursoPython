@@ -67,3 +67,83 @@ if __name__ == '__main__':
 - El alumno Mycroft tiene el indice 1
 - El alumno John tiene el indice 2
 - El alumno Irene tiene el indice 3
+
+
+
+## Iterar diccionarios
+
+**Data**
+```Python
+diccionario = {
+    'nombre' : 'Sherlock',
+    'edad' : 5,
+    'cumpleaños' : '21 de marzo'
+```
+### Iterar sobre los KEYS de un diccionario
+
+```Python
+# Iterar un diccionario
+def iterar_keys():
+    for llave in diccionario:
+        print(llave)
+
+
+def go():
+    iterar_keys()
+if __name__ == '__main__':
+    go()
+}
+```
+
+**Ouput**
+
+- nombre
+- edad
+- cumpleaños
+
+### Iterar sobre los VALUES de un diccionario
+
+```Python
+# Iterar un diccionario
+def iterar_values():
+    for valor in diccionario.values():
+        print(valor)
+
+def go():
+    iterar_values()
+if __name__ == '__main__':
+    go()
+```
+
+**Output**
+
+- Sherlock
+- 5
+- 21 de marzo
+
+
+### Iterar sobre los ITEMS de un diccionario
+
+```Python
+def iterar_items():
+    for llave, valor in diccionario.items():
+        print(f'La llave {llave} tiene el valor {valor}')
+
+
+def go():
+    iterar_items()
+if __name__ == '__main__':
+    go()
+```
+
+**Output**
+
+- La llave nombre tiene el valor Sherlock
+- La llave edad tiene el valor 5
+- La llave cumpleaños tiene el valor 21 de marzo
+
+
+
+
+
+
